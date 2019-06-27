@@ -3,7 +3,7 @@
     Fecha:27/06/2019
  */
 
-body {
+ body {
   font-family: 'roboto';
 }
 
@@ -58,8 +58,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0077ff), to(#0987ee));
+  background: linear-gradient(0deg, #00c3ff 0%, #09eedb 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -83,8 +83,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0077ff), to(#0987ee));
+  background: linear-gradient(0deg,  #00c3ff 0%, #09eedb 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -129,35 +129,36 @@ header.masthead .bg-circle-4 {
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #0946ee !important;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #0965ee;
+  border-color: #0959ee;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #07b7bd !important;
+  border-color: #07a8bd !important;
 }
 
 .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(59, 9, 238, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(24, 9, 238, 0.5);
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color: #00d9ff;
+  border-color: #00fff2;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
+  background-color: #0014cc !important;
+  border-color: #2500cc !important;
 }
 
 .btn-secondary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(25, 0, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(55, 0, 255, 0.5);
 }
+
